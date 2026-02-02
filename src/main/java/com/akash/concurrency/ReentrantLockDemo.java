@@ -1,4 +1,4 @@
-package com.akash.MultiThreading.controller;
+package com.akash.concurrency;
 
 import java.util.concurrent.locks.ReentrantLock;
 

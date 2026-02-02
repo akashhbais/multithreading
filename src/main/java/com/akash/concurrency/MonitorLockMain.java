@@ -1,4 +1,4 @@
-package com.akash.springbootbasics.controller;
+package com.akash.concurrency;
 
 public class MonitorLockMain {
 

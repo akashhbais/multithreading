@@ -1,4 +1,4 @@
-package com.akash.MultiThreading.controller;
+package com.akash.concurrency;
 
 public class MonitorThread1Runnable implements Runnable {
 
