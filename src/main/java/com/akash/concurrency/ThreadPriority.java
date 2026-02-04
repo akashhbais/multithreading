@@ -22,6 +22,12 @@ public class ThreadPriority {
         t2.start();
         t3.start();
 
+        /* when executing highest priority thread is not promised to be first
+        ,it will be decided completely by the OS.
+        In my case when i started the program:
+        first thread1 -> then thread3 -> then thread2
+        */
+
     }
 
 }
