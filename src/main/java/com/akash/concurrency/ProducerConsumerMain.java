@@ -1,5 +1,8 @@
 package com.akash.concurrency;
 
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class ProducerConsumerMain {
     
     public static void main(String[] args) {
@@ -13,6 +16,10 @@ public class ProducerConsumerMain {
 
     t1.start();
     t2.start();
+
+    AtomicInteger at = new AtomicInteger();
+    AtomicBoolean ab = new AtomicBoolean(true);
+
     }
 
 }
