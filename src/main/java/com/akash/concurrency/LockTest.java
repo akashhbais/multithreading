@@ -14,7 +14,7 @@ public class LockTest {
         }).start();
 
         // Thread 2: Uses wait()
-        // This thread tries to get the lock. 
+        // This thread tries to get the lock.
         // Since Thread 1 uses sleep (holds lock), Thread 2 CANNOT start until Thread 1 finishes.
         new Thread(() -> {
             try { Thread.sleep(100); } catch (Exception e) {} // Ensure T1 starts first
